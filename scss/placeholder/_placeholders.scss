@@ -4,9 +4,6 @@
     font-size: 70px;
     padding: 0 25px 20px;
 }
-p {
-    @extend %titre-global;
-}
 %flex-double-centre {
     display: flex;
     justify-content: center;

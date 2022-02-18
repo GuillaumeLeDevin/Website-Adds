@@ -1,44 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ACTOS Site</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Navigation -->
 
     <nav>
-        <span class="logo-nav">ACTOS</span>
-        <ul>
-            <li><a href="./index.html">Pourquoi Actos ?</a></li>
-            <li><a href="./pages/fonctionnalites.html">Fonctionnalités</a></li>
-            <li><a href="./pages/tarifs.html">Tarifs</a></li>
-        </ul>
-        <a href="#" class="lien-essai">Essai gratuit</a>
-        <button class="responsive-nav-btn">
-            <img src="./ressources/menu.svg" alt="icone menu">
-        </button>
+      <span class="logo-nav">ACTOS</span>
+      <ul>
+        <li><a href="./index.html">Pourquoi Actos ?</a></li>
+        <li><a href="./pages/fonctionnalites.html">Fonctionnalités</a></li>
+        <li><a href="./pages/tarifs.html">Tarifs</a></li>
+      </ul>
+      <a href="#" class="lien-essai">Essai gratuit</a>
+      <button class="responsive-nav-btn">
+        <img src="./ressources/menu.svg" alt="icone menu" />
+      </button>
     </nav>
 
     <!-- Container global -->
     <div class="container-global">
-        <div class="accueil">
-            <h1 class="titre-global">Hébergez sans limite</h1>
-            <p class="sous-titre">Des services sécurisés et inédits</p>
-            <img src="ressources/background-accueil.jpg" alt="serveurs et jeune homme">
+      <!-- Accueil -->
+      <div class="accueil">
+        <h1 class="titre-global">Hébergez sans limite</h1>
+        <p class="sous-titre">Des services sécurisés et inédits</p>
+        <img
+          src="ressources/background-accueil.jpg"
+          alt="serveurs et jeune homme"
+        />
+      </div>
+
+      <!-- Section Performances -->
+
+      <div class="container-performances">
+        <h2 class="titre-global">Performances</h2>
+        <hr class="separation" />
+        <div class="container-box">
+          <div class="box box-1">
+            <p class="nombre-clients">#128</p>
+            <p class="type-de-clients">Clients Satisfaits</p>
+            <p class="info-clients">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="box box-2">
+            <p class="nombre-clients">#128</p>
+            <p class="type-de-clients">Clients Satisfaits</p>
+            <p class="info-clients">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="box box-3">
+            <p class="nombre-clients">#128</p>
+            <p class="type-de-clients">Clients Satisfaits</p>
+            <p class="info-clients">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section FAQ -->
+
+    <h2 class="titre-global">Foire Aux Questions</h2>
+    <hr class="separation">
+
+    <div class="container-faq">
+
+        <div class="questions">
+
+            <div class="panneau-visible">
+                <p class="titre-question">Lorem ipsum dolor sit amet.</p>
+                <img src="ressources/plus.svg" alt="croix animation">
+            </div>
+            <div class="toggle-pannel">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, laudantium temporibus non nemo sint, nesciunt, natus molestias facilis perspiciatis tenetur repellendus autem atque error repellat. Vero in voluptas quaerat a.</p>
+            </div>
+        </div>
+        <div class="questions">
+
+            <div class="panneau-visible">
+                <p class="titre-question">Lorem ipsum dolor sit amet.</p>
+                <img src="ressources/plus.svg" alt="croix animation">
+            </div>
+            <div class="toggle-pannel">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quod enim labore asperiores, quo nobis voluptatibus hic perferendis eos quam ducimus aliquam ut voluptates quisquam expedita omnis quos?</p>
+            </div>
+        </div>
+        <div class="questions">
+
+            <div class="panneau-visible">
+                <p class="titre-question">Lorem ipsum dolor sit amet.</p>
+                <img src="ressources/plus.svg" alt="croix animation">
+            </div>
+            <div class="toggle-pannel">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cupiditate alias ab, sapiente harum impedit eligendi nulla atque dolore adipisci enim voluptatem perspiciatis?</p>
+            </div>
+        </div>
+        <div class="questions">
+
+            <div class="panneau-visible">
+                <p class="titre-question">Lorem ipsum dolor sit amet.</p>
+                <img src="ressources/plus.svg" alt="croix animation">
+            </div>
+            <div class="toggle-pannel">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fugiat ad repellendus dolorem! Magnam omnis nesciunt accusamus eos quasi quod facilis facere reprehenderit itaque sunt corporis expedita accusantium, temporibus alias!</p>
+            </div>
         </div>
     </div>
 
-
-
-
     <script src="./scripts/app.js"></script>
-</body>
+  </body>
 </html>
