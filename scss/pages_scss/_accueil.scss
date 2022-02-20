@@ -371,3 +371,23 @@ footer {
     @extend %flex-double-centre;
     flex-direction: column;
 }
+.bloc {
+    width: 300px;
+    margin: 0 30px;
+}
+footer h3 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+footer p {
+    font-size: 22px;
+    line-height: 1.4;
+}
+.liste-media {
+    @extend %flex-double-centre;
+}
+.liste-media img {
+    width: 40px;
+    margin: 10px 10px;
+}
