@@ -5,7 +5,7 @@
   padding: 0 25px 20px;
 }
 
-.liste-media, footer, .container-faq, .container-box, .accueil, nav ul {
+.container-fonctionnalites, .liste-media, footer, .container-faq, .container-box, .accueil, nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -464,6 +464,46 @@ footer p {
   padding: 15px;
   background: #8a56eb;
   color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.fantome {
+  border: 2px solid #8a56eb;
+  background: transparent;
+  color: #8a56eb;
+}
+
+.container-fonctionnalites {
+  width: 90%;
+  margin: 125px auto 200px;
+  min-width: 300px;
+  max-width: 1700px;
+  flex-wrap: wrap;
+}
+
+.box-fonctionnalites {
+  width: 400px;
+  display: flex;
+  margin: 40px 20px;
+}
+
+.gauche-img {
+  font-size: 50px;
+  padding: 5px;
+}
+
+.droite-txt p:nth-of-type(1) {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.droite-txt p:nth-of-type(2) {
+  font-size: 25px;
+  line-height: 1.2;
 }
 
 /*# sourceMappingURL=style.css.map */

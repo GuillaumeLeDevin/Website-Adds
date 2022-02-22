@@ -29,3 +29,33 @@
     background: transparent;
     color: $violet-principal;
 }
+
+// ------------------ Fonctionnalités ------------------
+
+.container-fonctionnalites {
+    width: 90%;
+    margin: 125px auto 200px;
+    min-width: 300px;
+    max-width: 1700px;
+    @extend %flex-double-centre;
+    flex-wrap: wrap;
+}
+.box-fonctionnalites {
+    width: 400px;
+    display: flex;
+    margin: 40px 20px;
+}
+.gauche-img {
+    font-size: 50px;
+    padding: 5px;
+}
+.droite-txt p:nth-of-type(1){
+    font-weight: 700;
+    font-size: 35px;
+}
+.droite-txt p:nth-of-type(2){
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+// ------------------ Newsletter ------------------
