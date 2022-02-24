@@ -57,4 +57,24 @@ allCross.forEach(logo => {
     })
 })
 
+const choixTarifs = Array.from(document.querySelectorAll('.choix'));
+const contenuTarifs = Array.from(document.querySelectorAll('.panneau'));
 
+choixTarifs.forEach( choix => {
+    choix.addEventListener('click', (e) => {
+
+        let indexClick = choixTarifs.indexOf(e.target);
+
+        for(let i = 0; i < choixTarifs.length; i++) {
+
+            if(i === indexClick) {
+                choixTarifs[i].classList.add('active-choix');
+                contenuTarifs[i].classList.add('panneau-active');
+            } else {
+                choixTarifs[i].classList.remove('active-choix');
+                contenuTarifs[i].classList.remove('panneau-active');
+            }
+
+        }
+    })
+})
